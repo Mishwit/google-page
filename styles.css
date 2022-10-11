@@ -1,0 +1,14 @@
+body {
+  background-color: blue;
+  margin: 0;
+}
+
+header {
+  /* width: 100%; */
+  background-color: pink;
+  padding: 30px;
+}
+
+h1 {
+  background-color: powderblue;
+}
