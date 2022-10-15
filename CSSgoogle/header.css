@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
+  background-color: rgb(255, 0, 200);
+  padding: 20px 20px;
+}
+
+.mail {
+  background-color: rgb(175, 0, 0);
+  margin-right: 15px;
+  height: 17px;
+}
+
+.pictures {
+  background-color: darkseagreen;
+  margin-right: 15px;
+  height: 17px;
+}
+
+.google-apps {
+  background-color: goldenrod;
+  margin-right: 15px;
+  height: 17px;
+}
+
+.login {
+  background-color: brown;
+  height: 17px;
+}
