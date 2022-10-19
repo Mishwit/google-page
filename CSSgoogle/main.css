@@ -4,10 +4,33 @@
   align-items: center;
   flex-direction: column;
   flex: 1;
+  height: 92px;
 }
 .main-top {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+}
+
+.search-input {
+  display: flex;
+  flex: 1;
+  height: 39px;
+  width: 560px;
+  border-radius: 24px;
+  margin-top: 30px;
+  background-image: url(/Icons/keyboard.png);
+  background-repeat: no-repeat;
+}
+
+.keyboard-and-mike {
 }
 
 .main-bottom {
@@ -15,8 +38,6 @@
   flex-direction: row;
 }
 
-.form {
-}
 .search {
 }
 .luck {
