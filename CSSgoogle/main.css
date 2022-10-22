@@ -22,6 +22,7 @@
   border: 1px solid rgb(223, 225, 229);
   display: flex;
   align-items: center;
+  margin-top: 25px;
 }
 
 .search-input {
@@ -31,6 +32,7 @@
   width: 560px;
   border-radius: 24px;
   background-repeat: no-repeat;
+  border: none;
 }
 
 .keyboard-and-mike {
@@ -43,6 +45,7 @@
 }
 
 .buttons {
+  margin-top: 35px;
   display: flex;
   flex: 1;
   justify-content: center;
