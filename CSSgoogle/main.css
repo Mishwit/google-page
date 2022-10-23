@@ -17,6 +17,8 @@
 }
 
 .form {
+  width: 582px;
+  height: 44px;
   background-color: white;
   border-radius: 24px;
   border: 1px solid rgb(223, 225, 229);
@@ -28,20 +30,54 @@
 .search-input {
   display: flex;
   flex: 1;
-  height: 39px;
-  width: 560px;
-  border-radius: 24px;
+  height: 34px;
+  width: 403px;
+  /* border-radius: 24px; */
   background-repeat: no-repeat;
   border: none;
 }
 
-.keyboard-and-mike {
+.keyboard-mike-camera {
+  display: flex;
+  flex-direction: row;
+  line-height: 44px;
+}
+
+.search {
+}
+
+.glass {
+  /* line-height: 17px; */
+  margin-left: 14px;
+  height: 20px;
+  width: 20px;
+}
+
+.keyboard {
+  margin-right: 5px;
+  height: 24px;
+  width: 24px;
+}
+
+.mike {
+  height: 24px;
+  width: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.camera {
+  height: 24px;
+  width: 24px;
+  margin-left: 5px;
 }
 
 .main-bottom {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
+  line-height: 28px;
+  padding: 0 3px;
 }
 
 .buttons {
@@ -55,15 +91,19 @@
 
 .search {
   margin-left: 50px;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 4px;
 }
 .luck {
   margin-right: 30px;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 4px;
 }
-.services {
-}
-.cg {
-}
-.sr {
-}
-.bos {
+
+.lang-block {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #1a0dab;
 }

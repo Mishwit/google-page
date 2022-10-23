@@ -4,6 +4,8 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   display: flex;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   min-height: 100vh;
+  font-size: 14px;
+  font-family: arial, sans-serif;
 }

@@ -11,23 +11,24 @@
 
 .mail {
   background-color: rgb(175, 0, 0);
-  margin-right: 15px;
+  margin-right: 20px;
   height: 17px;
 }
 
 .pictures {
   background-color: darkseagreen;
-  margin-right: 15px;
+  margin-right: 30px;
   height: 17px;
 }
 
 .google-apps {
   background-color: goldenrod;
-  margin-right: 15px;
+  margin-right: 30px;
   height: 17px;
 }
 
 .login {
   background-color: brown;
+  margin-right: 40px;
   height: 17px;
 }

@@ -20,16 +20,14 @@
     <main class="main">
       <div class="main-top">
         <div class="logo">
-          <img src="../google-page/Icons/logo.png" alt="Google logo" />
+          <img src="../google-page/icons/logo.png" alt="Google logo" />
         </div>
 
         <div class="form">
-          <img
-            src="./Icons/search.svg"
-            alt="Лупа"
-            height="10px"
-            width="10px "
-          />
+          <a class="glass" href="#">
+            <img src="./icons/search.svg" />
+          </a>
+
           <form method="get">
             <input
               class="search-input"
@@ -39,25 +37,16 @@
             />
           </form>
 
-          <div class="search-keyboard-mike-camera">
-            <img
-              src="../google-page/Icons/keyboard.png"
-              alt="Клавиатура"
-              height="24px"
-              width="24px"
-            />
-            <img
-              src="../google-page/Icons/microphone.png"
-              alt="Микрофон"
-              height="20px"
-              width="19px"
-            />
-            <img
-              src="./Icons/camera.svg"
-              alt="Поиск по картинке"
-              height="24px"
-              width="24px"
-            />
+          <div class="keyboard-mike-camera">
+            <a class="keyboard" href="#">
+              <img src="./icons/keyboard.png" alt="Виртуальная клавиатура" />
+            </a>
+            <a class="mike" href="#">
+              <img src="./icons/mike.svg" />
+            </a>
+            <a class="camera" href="#">
+              <img src="./icons/camera.svg" alt="Голосовой ввод" />
+            </a>
           </div>
         </div>
 
@@ -67,10 +56,10 @@
         </div>
       </div>
       <div class="main-bottom">
-        <div class="services">Сервисы Google доступы на этих языках</div>
-        <div class="cg">crnogorski</div>
-        <div class="sr">српски</div>
-        <div class="bos">bosanski</div>
+        <div>Сервисы Google доступы на этих языках:</div>
+        <a href="#" class="lang-block">crnogorski</a>
+        <a href="#" class="lang-block">српски</a>
+        <a href="#" class="lang-block">bosanski</a>
       </div>
     </main>
     <footer class="footer">
@@ -78,13 +67,17 @@
         <div class="montenegro">Черногория</div>
       </div>
       <div class="footer-bottom">
-        <div class="all-about-google">Всё о Google</div>
-        <div class="advertising">Реклама</div>
-        <div class="for-business">Для бизнеса</div>
-        <div class="how-works-google-search">Как работает Google Поиск</div>
-        <div class="confidentiality">Конфиденциальность</div>
-        <div class="terms">Условия</div>
-        <div class="settings">Настройки</div>
+        <div class="first-block">
+          <div class="all-about-google">Всё о Google</div>
+          <div class="advertising">Реклама</div>
+          <div class="for-business">Для бизнеса</div>
+          <div class="how-works-google-search">Как работает Google Поиск</div>
+        </div>
+        <div class="second-block">
+          <div class="confidentiality">Конфиденциальность</div>
+          <div class="terms">Условия</div>
+          <div class="settings">Настройки</div>
+        </div>
       </div>
     </footer>
   </body>
