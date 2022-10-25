@@ -5,6 +5,7 @@
   flex-direction: column;
   flex: 1;
   height: 92px;
+  padding-top: 5px;
 }
 .main-top {
   display: flex;
@@ -24,9 +25,13 @@
   flex: 1;
   align-items: center;
   margin-top: 25px;
+  height: 46px;
+  width: 584px;
+  background-color: aquamarine;
 }
 
 .search-input {
+  background-color: blueviolet;
   display: flex;
   flex: 1;
   height: 34px;
@@ -37,10 +42,12 @@
 }
 
 .keyboard-mike-camera {
+  background-color: #1a0dab;
+  padding: 10px 0px 10px 0px;
   display: flex;
   flex-direction: row;
   line-height: 44px;
-  padding-right: 15px;
+  margin-left: 25px;
 }
 
 .glass {
@@ -88,17 +95,16 @@
   flex: 1;
   justify-content: center;
   flex-direction: row;
-  justify-content: space-evenly;
+  gap: 11px;
+  padding: 0px 16px 0px 16px;
 }
 
 .search {
-  margin-left: 50px;
   background-color: grey;
   padding: 10px;
   border-radius: 4px;
 }
 .luck {
-  margin-right: 30px;
   background-color: grey;
   padding: 10px;
   border-radius: 4px;
