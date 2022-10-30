@@ -3,8 +3,9 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  max-height: 100px;
+  max-height: 95px;
   background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-top {
@@ -13,56 +14,33 @@
 
 .montenegro {
   display: flex;
-  flex: 1;
-  align-content: flex-start;
-  padding-left: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 30px;
-  margin-left: -10px;
+  padding: 15px 30px;
   color: #70757a;
+  font-size: 15px;
 }
 
 .footer-bottom {
+  background-color: pink;
+  align-items: center;
+  font-size: 14px;
   color: #70757a;
   display: flex;
   flex-direction: row;
-  padding-left: 20px;
-  padding-right: 20px;
-  justify-content: center;
+  padding: 20px 20px;
+
   gap: 300px;
 }
 .first-block {
+  background-color: powderblue;
   flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-.all-about-google {
-}
-
-.advertising {
-}
-
-.for-business {
-}
-
-.how-works-google-search {
 }
 
 .second-block {
-  flex: 1;
+  background-color: powderblue;
   justify-content: space-around;
   display: flex;
   flex-direction: row;
-}
-
-.confidentiality {
-}
-
-.terms {
-}
-
-.settings {
 }
