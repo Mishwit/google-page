@@ -3,7 +3,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  max-height: 95px;
+  max-height: 94px;
   background-color: #f2f2f2;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,27 +20,34 @@
 }
 
 .footer-bottom {
-  background-color: pink;
+  /* background-color: pink; */
   align-items: center;
   font-size: 14px;
   color: #70757a;
   display: flex;
   flex-direction: row;
-  padding: 20px 20px;
-
-  gap: 300px;
+  padding: 0 20px;
+  justify-content: space-between;
 }
+
 .first-block {
-  background-color: powderblue;
-  flex: 1;
+  flex-wrap: nowrap;
+  /* background-color: powderblue; */
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
 
 .second-block {
-  background-color: powderblue;
-  justify-content: space-around;
+  flex-wrap: nowrap;
   display: flex;
   flex-direction: row;
+  /* background-color: powderblue; */
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-link {
+  color: #70757a;
+  display: block;
+  padding: 15px 15px;
 }
