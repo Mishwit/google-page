@@ -1,5 +1,4 @@
 .header {
-  /* background-color: beige; */
   display: flex;
   justify-content: flex-end;
   height: 48px;
@@ -7,23 +6,21 @@
 }
 
 .header-wrapper {
-  /* background-color: azure; */
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   padding: 0 4px 0 32px;
 }
 
 .mail {
-  color: #202124;
-  font-size: 13px;
+  color: VAR(--COLOR_BLACK);
+  font-size: var(--FONT_SIZE_SMALL);
   padding-left: 15px;
   height: 17px;
 }
 
 .pictures {
-  color: #202124;
-  font-size: 13px;
+  color: VAR(--COLOR_BLACK);
+  font-size: var(--FONT_SIZE_SMALL);
   padding: 0 19px 0 15px;
   height: 17px;
 }
@@ -38,14 +35,14 @@
 }
 
 .google-apps:hover {
-  background-color: rgba(60, 64, 67, 0.08);
+  background-color: var(--COLOR_LIGHT1_GRAY);
 }
 
 .login {
   margin: 0px 8px 0 12px;
   padding: 9px 23px;
-  color: #fff;
-  background-color: #1a73e8;
+  color: var(--COLOR_WHITE);
+  background-color: var(--COLOR_BLUE);
   border: none;
   border-radius: 4px;
   letter-spacing: 0.25px;
@@ -54,13 +51,13 @@
   min-width: 96px;
   text-align: center;
   line-height: 18px;
-  font-size: 14px;
   cursor: pointer;
   transition: background 0.1s;
 }
 
 .login:hover {
-  background: #1b66c9;
-  box-shadow: 0 1px 3px 1px rgb(66 64 67 / 15%), 0 1px 2px 0 rgb(60 64 67 / 30%);
+  background: var(--COLOR_HEAVY1_BLUE);
+  box-shadow: 0 1px 3px 1px var(--COLOR_SHADOW1_GRAY),
+    0 1px 2px 0 var(--COLOR_SHADOW2_GRAY);
   text-decoration: none;
 }
