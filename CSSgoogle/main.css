@@ -32,6 +32,10 @@
   padding: 5px 8px 5px 14px;
 }
 
+.form:hover {
+  box-shadow: 0 1px 6px var(--COLOR_TRANSLUCENT_BLACK);
+}
+
 .input-wrapper {
   margin-left: 10px;
   flex: 1;
@@ -55,6 +59,7 @@
 .glass {
   height: 20px;
   width: 20px;
+  cursor: default;
 }
 
 .form-button {
@@ -68,33 +73,68 @@
 
 .main-bottom {
   display: flex;
-  margin-top: 23px;
-  line-height: 28px;
-  color: var(--COLOR_LIGHT_BLACK);
+  margin-bottom: 24px;
+  line-height: 52px;
+  color: var(--COLOR_LIGHT_BLACK2);
   font-size: var(--FONT_SIZE_SMALL);
 }
 
 .buttons {
-  margin-top: 29px;
+  padding-top: 18px;
   display: flex;
   flex: 1;
   justify-content: center;
   flex-direction: row;
-  gap: 14px;
 }
 
 .search {
+  display: inline-block;
+  align-items: flex-start;
+  box-sizing: border-box;
   background-color: var(--COLOR_LIGHT1_WHITE);
-  padding: 10px 15px;
+  border: 1px solid var(--COLOR_LIGHT1_WHITE);
+  padding: 0 16px;
+  margin: 11px 6px 11px 4px;
   border-radius: 4px;
+  line-height: 34px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--COLOR_LIGHT_BLACK1);
+  vertical-align: center;
 }
+
+.search:hover {
+  border: 1px solid var(--COLOR_LIGHT3_GRAY);
+  box-shadow: 0 1px 1px var(--COLOR_SHADOW);
+}
+
 .luck {
+  display: inline-block;
+  align-items: flex-start;
+  box-sizing: border-box;
   background-color: var(--COLOR_LIGHT1_WHITE);
-  padding: 10px 15px;
+  border: 1px solid var(--COLOR_LIGHT1_WHITE);
+  padding: 0 16px;
+  margin: 11px 4px 11px 6px;
   border-radius: 4px;
+  line-height: 34px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--COLOR_LIGHT_BLACK1);
+  vertical-align: center;
+}
+
+.luck:hover {
+  border: 1px solid var(--COLOR_LIGHT3_GRAY);
+  box-shadow: 0 1px 1px var(--COLOR_SHADOW);
 }
 
 .lang-block {
+  margin-left: 1px;
   display: inline-block;
   text-decoration: none;
   color: var(--COLOR_HEAVY2_BLUE);
@@ -104,5 +144,5 @@
 }
 
 .lang-block:first-child {
-  padding-left: 7px;
+  padding-left: 6px;
 }

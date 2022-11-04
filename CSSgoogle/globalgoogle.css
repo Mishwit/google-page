@@ -21,10 +21,13 @@ a:hover {
   --COLOR_LIGHT1_GRAY: rgb(60, 64, 67, 0.08);
   --COLOR_LIGHT2_GRAY: rgb(223, 225, 229);
   --COLOR_LIGHT3_GRAY: rgb(218, 220, 224);
+  --COLOR_SHADOW: rgb(0 0 0 / 10%);
   --COLOR_SHADOW1_GRAY: rgb(66 64 67 / 15%);
   --COLOR_SHADOW2_GRAY: rgb(60 64 67 / 30%);
   --COLOR_BLACK: rgb(32, 33, 36);
-  --COLOR_LIGHT_BLACK: rgb(77, 81, 86);
+  --COLOR_TRANSLUCENT_BLACK: rgb(32 33 36 / 28%);
+  --COLOR_LIGHT_BLACK1: rgb(60 64 67);
+  --COLOR_LIGHT_BLACK2: rgb(77, 81, 86);
   --COLOR_BLUE: rgb(26, 115, 232);
   --COLOR_HEAVY1_BLUE: rgb(27, 102, 201);
   --COLOR_HEAVY2_BLUE: rgb(26, 13, 171);
@@ -35,6 +38,6 @@ a:hover {
 }
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: var(--FONT_SIZE_MEDIUM);
 }
